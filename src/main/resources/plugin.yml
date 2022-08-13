@@ -1,0 +1,11 @@
+name: XODupes
+version: '${project.version}'
+main: com.xosurvival.xodupes.Main
+api-version: 1.18
+authors: [ Someone ]
+description: XOSurvival dupe's plugin
+website: xosurvival.com
+commands:
+  dupe:
+    description: Dupe your held item!
+    usage: /<command>

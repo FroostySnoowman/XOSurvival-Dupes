@@ -1,0 +1,11 @@
+########################################################
+## CONFIG
+########################################################
+
+prefix-message: "<bold><gold>SERVER</gold> <dark_gray>>></dark_gray></bold>"
+
+non-player-message: "<red>You need to be a player to execute this command.</red>"
+
+no-permission-message: "<gradient:#FF0000:#FF3DC5>You don't have the \"<permission>\" permission to use this command!</gradient>"
+
+blank-hand-message: "<gradient:#FF0000:#FF3DC5>You have nothing in your hand!</gradient>"
