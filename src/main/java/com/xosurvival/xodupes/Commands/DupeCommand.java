@@ -25,15 +25,8 @@ public class DupeCommand implements CommandExecutor {
             Player player = (Player) sender;
             if (sender.hasPermission("xo.dupe")) {
                 ItemStack item = player.getInventory().getItemInMainHand();
-                if (item == null) {
-                    sender.sendMessage(MiniMessage.miniMessage().deserialize(prefix_message + ' ' + blank_hand_message));
-                } else {
-                    if (player.getInventory().getItemInMainHand().equals(Material.AIR)) {
-                        sender.sendMessage(MiniMessage.miniMessage().deserialize(prefix_message + ' ' + blank_hand_message));
-                    } else {
-                        sender.sendMessage(MiniMessage.miniMessage().deserialize(String.valueOf(item)));
-                    }
-                }
+                // if check to figure out how to check if it's an item
+                sender.sendMessage(MiniMessage.miniMessage().deserialize(String.valueOf(item)));
             } else {
                 sender.sendMessage(MiniMessage.miniMessage().deserialize(prefix_message + ' ' + no_permission_message, Placeholder.component("permission", Component.text("xo.dupe"))));
             }
