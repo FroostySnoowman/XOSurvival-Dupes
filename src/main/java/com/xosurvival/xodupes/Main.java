@@ -7,7 +7,7 @@ public final class Main extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        getLogger().info("XOSurvival-Dupes plugin has enabled. tttt");
+        getLogger().info("XOSurvival-Dupes plugin has enabled.");
 
         // Commands
         getCommand("dupe").setExecutor(new DupeCommand(this));
