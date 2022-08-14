@@ -9,3 +9,7 @@ non-player-message: "<red>You need to be a player to execute this command.</red>
 no-permission-message: "<gradient:#FF0000:#FF3DC5>You don't have the \"<permission>\" permission to use this command!</gradient>"
 
 blank-hand-message: "<gradient:#FF0000:#FF3DC5>You have nothing in your hand!</gradient>"
+
+full-inventory-message: "<gradient:#FF0000:#FF3DC5>You have a full inventory! You can't dupe anymore.</gradient>"
+
+undupeable-message: "<gradient:#FF0000:#FF3DC5>You cannot dupe that!</gradient>"

@@ -1,4 +1,4 @@
-name: XODupes
+name: XOSurvival-Dupes
 version: '${project.version}'
 main: com.xosurvival.xodupes.Main
 api-version: 1.18

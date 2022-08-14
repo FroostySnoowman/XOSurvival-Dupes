@@ -6,10 +6,10 @@
 
     <groupId>com.xosurvival</groupId>
     <artifactId>XOSurvival-Dupes</artifactId>
-    <version>0.1</version>
+    <version>1.0</version>
     <packaging>jar</packaging>
 
-    <name>XODupes</name>
+    <name>XOSurvival-Dupes</name>
 
     <description>XOSurvival dupe's plugin</description>
     <properties>
