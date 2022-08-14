@@ -13,5 +13,3 @@ blank-hand-message: "<gradient:#FF0000:#FF3DC5>You have nothing in your hand!</g
 full-inventory-message: "<gradient:#FF0000:#FF3DC5>You have a full inventory! You can't dupe anymore.</gradient>"
 
 undupeable-message: "<gradient:#FF0000:#FF3DC5>You cannot dupe that!</gradient>"
-
-cooldown-time: 3
